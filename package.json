@@ -1,0 +1,31 @@
+{
+  "name": "moment-rule",
+  "version": "0.0.1",
+  "description": "Extended date/time ranges for moment.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "coffee src/test/test-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kba/moment-rule"
+  },
+  "author": "Konstantin baierer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kba/moment-rule/issues"
+  },
+  "homepage": "https://github.com/kba/moment-rule",
+  "dependencies": {
+    "cson": "^3.0.2",
+    "deep-extend": "^0.4.1",
+    "easylog": "0.0.10",
+    "find-up": "^1.1.0",
+    "js-yaml": "^3.5.2",
+    "moment": "^2.11.1",
+    "moment-range": "^2.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
